@@ -1,0 +1,14 @@
+- hosts: all
+  become: yes
+  tasks:
+  - name: Include apt task
+    import_tasks: common/apt.yml
+  
+  - name: Include swapoff task
+    import_tasks: common/no_swap.yml
+
+  - name: Include CRI-O task
+    import_tasks: common/crio.yml
+
+  - name: Include kubernetes task
+    import_tasks: common/kubernetes.yml
