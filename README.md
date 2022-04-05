@@ -1,2 +1,6 @@
 # kubernetes-local-cluster
-A local kubernetes cluster provisioned with ansible and vagrant for local development
+A local kubernetes cluster provisioned for local development.
+
+List of provisioners:
+1. KIND
+2. Vagrant and ansible 
