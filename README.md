@@ -12,7 +12,7 @@ List of provisioners:
 make registry
 make cluster
 ```
-### Vagrant and ansible
+### Vagrant with ansible
 ```
 vagrant up
 ```
